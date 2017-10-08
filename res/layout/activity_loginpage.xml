@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.pro.mindgrove.loginpage">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:weightSum="1">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="13"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:background="@drawable/profile"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update Profile "
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="#1c6f9c"
+            android:typeface="monospace" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Find expert Faculty and Institute"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#FF1C6F9C"
+            android:textSize="18dp"
+            android:typeface="monospace" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome to Faculty Box!"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal"
+            android:textSize="21dp"
+            android:typeface="serif"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:weightSum="1">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:weightSum="1">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="380dp"
+            android:layout_height="30dp"
+            android:background="@drawable/facebookbt"
+            android:layout_gravity="top|center"
+            android:text="Sign in  with facebook"
+            android:textAllCaps="false"
+            android:id="@+id/face"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textColor="#fffefe"
+            android:textSize="25dp"
+            android:layout_weight="0.57"
+            android:typeface="sans" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:weightSum="1">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="11"
+        android:weightSum="1">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="380dp"
+            android:layout_height="30dp"
+            android:background="@drawable/gmailbt"
+            android:layout_gravity="top|center"
+            android:text="Sign in"
+            android:textAllCaps="false"
+            android:id="@+id/gmail"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:textColor="#fffefe"
+            android:textSize="25dp"
+            android:layout_weight="0.57"
+            android:typeface="sans" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have a Account?"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="#1d89bb" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="14"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="faculty and Institute"
+            android:id="@+id/textView19"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#7fa87f"
+            android:textSize="30dp"
+            android:typeface="sans"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</LinearLayout>
